@@ -24,6 +24,10 @@ local plugins = {
     end,
   },
   {
+    'jose-elias-alvarez/typescript.nvim',
+    ft = 'typescript',
+  },
+  {
     'mfussenegger/nvim-dap',
     init = function ()
       require('core.utils').load_mappings('dap')
@@ -44,6 +48,14 @@ local plugins = {
     init = function ()
      vim.g.rustfmt_autosave = 1
     end
+  },
+  {
+    'christoomey/vim-tmux-navigator',
+    lazy = false,
+  },
+  {
+    'tpope/vim-fugitive',
+    lazy = false
   }
 }
 
