@@ -3,7 +3,8 @@ local plugins = {
         'williamboman/mason.nvim',
         opts = {
             ensure_installed = {
-                'gopls', 'rust-analyzer', 'typescript-language-server', 'clangd'
+                'gopls', 'rust-analyzer', 'typescript-language-server',
+                'clangd', 'eslint_d'
             }
         }
     }, {
