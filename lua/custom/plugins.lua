@@ -54,6 +54,10 @@ local plugins = {
                 }
             })
         end
+    },
+    {
+        'APZelos/blamer.nvim',
+        lazy = false,
     }
 }
 
